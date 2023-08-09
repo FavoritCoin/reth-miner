@@ -1,13 +1,11 @@
-# Rethminer v0.0.2
-
-**Rethminer** is a fork of [Ethminer](https://github.com/ethereum-mining/ethminer) modified for [Rethereum](https://github.com/Rethereum-blockchain) with the ETHashB3 algorithm which depends on the [Blake3](https://github.com/BLAKE3-team/BLAKE3) C code. It is currently in the POC phase, has only been ported for CUDA gpus and has only been tested under linux and windows using wsl (ubuntu). It comes with no guarantee or warranty (use at your own risk!).
+# Reth-miner v0.0.2
 
 ## Features
 * NVIDIA CUDA mining v11.7.1
 
 ## Usage
 
-The **rethminer** can be compiled using docker using our make file found in the repository. To build it for linux please run:
+The **reth-miner** can be compiled using docker using our make file found in the repository. To build it for linux please run:
 
 ```sh
 docker build --no-cache -t rethminer .
