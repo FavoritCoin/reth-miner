@@ -1,6 +1,6 @@
 # Reth-miner v0.0.2
 ## Our community
-[Telegram pool]https://t.me/Altcoin_Pool
+[Telegram pool](https://t.me/Altcoin_Pool)
 [Telegram media](https://t.me/FavoritCoinChat)
 [discord](https://discord.gg/HqyjXaRX)
 [our pool](https://altcoinpool.ru/)
