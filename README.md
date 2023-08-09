@@ -1,4 +1,12 @@
 # Reth-miner v0.0.2
+## Our community
+[Telegram pool]https://t.me/Altcoin_Pool
+[Telegram media](https://t.me/FavoritCoinChat)
+[discord](https://discord.gg/HqyjXaRX)
+[our pool](https://altcoinpool.ru/)
+
+## Donations
+0x373C42955c4fC778b257BD1aCCF0b0349830a725
 
 ## Features
 * NVIDIA CUDA mining v11.7.1 Только зелёные карты
@@ -64,9 +72,10 @@ For more information about building or command line usage and other options plea
 
 ## Contribute
 
-To meet the community, ask general questions and chat about ethminer join us on [discord](https://discord.com/invite/xCB4AJDEFb).
+To meet the community, ask general questions and chat about ethminer join us on [discord](https://discord.gg/kBSnzqyph2).
 
 All bug reports, pull requests and code reviews are very much welcome.
+
 
 ## License
 
