@@ -46,18 +46,30 @@ wget https://github.com/FavoritCoin/reth-miner/releases/download/v0.0.2/reth-min
 
 sudo nano start.sh 
 
-// Копировать содержимое между линиями
+## Copy content between lines
 ------------------------------------------
 #!/bin/bash 
 
-./RTH_CUDA_GPU_Miner -P stratum://0x66661.......d32bD12a20bC@ru-stratum.altcoinpool.ru:4054 (в конце кошелька символы    @ru)
+./RTH_CUDA_GPU_Miner -P stratum://0x1cDD22aad741fe62519914370284Ac3E401b5218@ru-stratum.altcoinpool.ru:4054 (at the end of the wallet are symbols    @ru)
 ------------------------------------------
 
 sudo chmod +x ./start.sh && sudo chmod +x ./RTH_CUDA_GPU_Miner
 
-screen -S rth (любое название у меня rth)
+screen -S rth (any name I have rth)
 
 ./start.sh
+
+## If you have restarted the farm and want to restart mining, enter alternately:
+
+cd reth-miner
+screen -S rth
+./start.sh
+
+## If HiveShell is closed, but you really want to see the mining process, then open HiveShell again and enter one by one:
+
+cd reth-miner
+screen -r rth
+
 
 ### More information
 
