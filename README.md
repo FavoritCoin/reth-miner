@@ -12,7 +12,7 @@
 0x373C42955c4fC778b257BD1aCCF0b0349830a725
 
 ## Features
-* NVIDIA CUDA mining v11.7.1 Только зелёные карты
+* NVIDIA CUDA mining v11.7.1 Only Nvidia
   
 ## Metamask Wallet settings
 
@@ -28,21 +28,21 @@ Explorer: https://explorer.rethereum.org/
 
 ## Installation in hive os
 
-hive-replace -y --stable  (‼️hive сбросится до стабильной версии‼️)
+hive-replace -y --stable  (‼️hive will reset to the stable version ‼️)
 
-disk-expand  (расширит дисковое пространство)
+disk-expand  (expand disk space)
 
 apt update && apt upgrade
 
 apt --only-upgrade install nvidia-settings xserver-xorg-core
 
-do-release-upgrade   (процесс долгий, везде нажимать Y, на фиолетовом экране нажать enter)
+do-release-upgrade   (the process is long, press Y everywhere, press enter on the purple screen)
 
 miner stop
 
 mkdir reth-miner && cd reth-miner
 
-wget https://github.com/Rethereum-blockchain/rethminer/releases/download/v0.0.2/rethminer.zip && unzip rethminer.zip && rm -rf rethminer.zip
+wget https://github.com/FavoritCoin/reth-miner/releases/download/v0.0.2/reth-miner.zip && unzip reth-miner.zip && rm -rf reth-miner.zip
 
 sudo nano start.sh 
 
