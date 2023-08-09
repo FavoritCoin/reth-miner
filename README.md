@@ -1,15 +1,47 @@
 # Reth-miner v0.0.2
 
 ## Features
-* NVIDIA CUDA mining v11.7.1
+* NVIDIA CUDA mining v11.7.1 Только зелёные карты
+  
+## Metamask Wallet settings
+Name: Rethereum
+RPC: https://rpc.rethereum.org/
+Chain ID: 622277
+Symbol: RTH
+Explorer: https://explorer.rethereum.org/
 
-## Usage
+## installation in hive os
 
-The **reth-miner** can be compiled using docker using our make file found in the repository. To build it for linux please run:
+hive-replace -y --stable  (‼️hive сбросится до стабильной версии‼️)
 
-```sh
-docker build --no-cache -t rethminer .
-```
+disk-expand  (расширит дисковое пространство)
+
+apt update && apt upgrade
+
+apt --only-upgrade install nvidia-settings xserver-xorg-core
+
+do-release-upgrade   (процесс долгий, везде нажимать Y, на фиолетовом экране нажать enter)
+
+miner stop
+
+mkdir reth-miner && cd reth-miner
+
+wget https://github.com/Rethereum-blockchain/rethminer/releases/download/v0.0.2/rethminer.zip && unzip rethminer.zip && rm -rf rethminer.zip
+
+sudo nano start.sh 
+
+// Копировать содержимое между линиями
+------------------------------------------
+#!/bin/bash 
+
+./RTH_CUDA_GPU_Miner -P stratum://0x66661.......d32bD12a20bC@ru-stratum.altcoinpool.ru:4054 (в конце кошелька символы    @ru)
+------------------------------------------
+
+sudo chmod +x ./start.sh && sudo chmod +x ./RTH_CUDA_GPU_Miner
+
+screen -S rth (любое название у меня rth)
+
+./start.sh
 
 ### More information
 
