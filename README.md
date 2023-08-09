@@ -4,6 +4,7 @@
 * NVIDIA CUDA mining v11.7.1 Только зелёные карты
   
 ## Metamask Wallet settings
+
 Name: Rethereum
 RPC: https://rpc.rethereum.org/
 Chain ID: 622277
