@@ -4,9 +4,9 @@
 
 [Telegram media](https://t.me/FavoritCoinChat)
 
-[discord](https://discord.gg/HqyjXaRX)
+[Discord](https://discord.gg/HqyjXaRX)
 
-[our pool](https://altcoinpool.ru)
+[Our pool](https://altcoinpool.ru)
 
 ## Donations
 0x373C42955c4fC778b257BD1aCCF0b0349830a725
@@ -26,7 +26,7 @@ Symbol: RTH
 
 Explorer: https://explorer.rethereum.org/
 
-## installation in hive os
+## Installation in hive os
 
 hive-replace -y --stable  (‼️hive сбросится до стабильной версии‼️)
 
