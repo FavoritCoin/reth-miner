@@ -6,9 +6,13 @@
 ## Metamask Wallet settings
 
 Name: Rethereum
+
 RPC: https://rpc.rethereum.org/
+
 Chain ID: 622277
+
 Symbol: RTH
+
 Explorer: https://explorer.rethereum.org/
 
 ## installation in hive os
